@@ -13,7 +13,7 @@ db.connect();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-let currentUserId = 11;
+let currentUserId = 1;
 
 let users = [];
 
